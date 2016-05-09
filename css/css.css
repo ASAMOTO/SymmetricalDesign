@@ -1,0 +1,1943 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Dosis:700);
+@font-face {
+    font-family: 'M+ 1c regular';
+    src: url('../fonts/mplus-1c-regular-sub.eot');
+    src: url('../fonts/mplus-1c-regular-sub.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mplus-1c-regular-sub.woff') format('woff'),
+    url('../fonts/mplus-1c-regular-sub.ttf') format('truetype');
+}
+
+/************************全ページ共通部分＆index.html************************/
+
+body{
+font-family: 'M+ 1c regular';
+margin:0;
+color:#434343;
+}
+
+.photo_area img{
+  width: 100%;
+}
+
+/*****HEADER*****/
+header{
+    background-color: #ff8d8d;
+	text-align:center;
+}
+header img{
+	width: 80%;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+/*****NAV*****/
+#menu{
+	display: none;
+}
+#menu a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+}
+#menu li{
+	width: 100%;
+	height:100%;
+	text-align:center;
+	font-weight:bold;
+	background-color: #929292;
+	border-bottom:1px solid #626262;
+}
+#menu li:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#menu li:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#menu li a{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    margin-bottom: 20px;
+}
+nav li:last-child{
+	margin-bottom:20px;
+}
+nav li:hover{
+	display:block;
+	color:#262626;
+	text-decoration:none;
+	background-color:#A6A6A6;
+}
+nav li:active{
+	display:block;
+	background-color:#252525;
+	color:#fff;
+}
+#toggle{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+#toggle a{
+    font-family: 'Josefin Sans', sans-serif;
+	display: block;
+	position: relative;
+	padding: 17px 0 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:  #626262;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+/*#toggle:before{
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+	background: #444;
+}
+#toggle a:before, #toggle a:after{
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	width: 20px;
+	height: 4px;
+	background: #fff;
+}*/
+#toggle a:before{
+	margin-top: -6px;
+}
+#toggle a:after{
+	margin-top: 2px;
+}
+
+/*****ARTICLE*****/
+article{
+	width:100%;
+	margin-bottom:20px;
+	clear:both;
+}
+section{
+    width: 100%;
+    float: left;
+    margin-bottom: 100px;
+}
+article #branding img{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align:center;
+}
+#page_header{
+    margin-bottom: 20px;
+}
+#page_header img{
+    width: 100%;
+}
+/*ブランディング*/
+#slider1{
+    width: 100%;
+    margin: none;
+    padding: none;
+    border: none;
+}
+#slider1 img{
+    width: 100%;
+    margin: none;
+    padding: none;
+    border: none;
+}
+/*ブランディングここまで*/
+
+/*グローバルワイン*/
+#global_wine_cellar .box{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#global_wine_cellar .photo_area {
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #434343;
+    margin-bottom: -5px;
+    text-align: center;
+}
+#global_wine_cellar .text_area{
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5%;
+    overflow: hidden;
+}
+#global_wine_cellar .top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#global_wine_cellar .top img{
+    width: 10%;
+}
+#global_wine_cellar .top2 {
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#global_wine_cellar h4{
+    width: 100%;
+}
+#global_wine_cellar span{
+    font-weight: bold;
+}
+#global_wine_cellar hr{
+    background-color: #dfdfdf;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 0.09em;
+}
+#global_wine_cellar .star{
+    width: 100%;
+    letter-spacing: 3px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_cellar .star p{
+    color: #f1c40f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_cellar .postman{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_cellar .postman p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_cellar .details{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#global_wine_cellar .details a{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#global_wine_cellar .details a:hover{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+#global_wine_cellar .details a:active{
+    display: block;
+    color: #099;
+    background-color: #fff;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#global_wine_cellar .details span{
+    line-height: 60px;
+    font-weight: normal;
+}
+
+/*bxslider設定*/
+ul.bxslider {
+  padding: 0;   /* または padding-left: 0; */
+  margin: 0;
+}
+.bx-wrapper .bx-viewport {
+    width: 100%;
+    margin: none;
+    padding: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border:none;
+    background-color:transparent;
+    left:0;
+}
+/*bxslider設定ここまで*/
+
+/*各セクションのタイトル部分*/
+.sub_title{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ff8d8d;
+    border-bottom: 1px dashed #ff8d8d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sub_title h3{
+	font-size:130%;
+    letter-spacing: 2px;
+	margin-bottom:5px;
+}
+.sub_title p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 90%;
+    color: #ff8d8d;
+}
+/*各セクションのタイトル部分ここまで*/
+
+/*詳細ページへのリンクボタン*/
+.next_btn{
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.next_btn_l{
+    width: 10%;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color:  #ff8d8d;
+    box-shadow: 0px 3px 0px 0.00px rgba(0, 0, 0, 0.77);
+    float: left;
+}
+.next_btn_r{
+    width: 90%;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color:  #626262;
+    box-shadow: 0px 3px 0px 0.00px rgba(0, 0, 0, 0.77);
+    float: left;
+}
+.next_btn a{
+    display: block;
+    color:  #ffffff;
+    text-decoration: none;
+    font-size: 110%;
+    height: 70px;
+    line-height:70px;
+}
+/*詳細ページへのリンクボタンここまで*/
+
+/*ショートカットボタン*/
+#shortcut_btn{
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+}
+#shortcut_btn p{
+    width: 100%;
+    border-radius:3px;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    line-height:60px;
+    margin-bottom: 20px;
+}
+#shortcut_btn p:hover{
+    background-color: #0aa;
+    border-radius: 3px;
+}
+#shortcut_btn a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#shortcut_btn a:hover{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+/*ショートカットボタンここまで*/
+
+/*ワインの情報コーナー*/
+#wine_information{
+    text-align: center;
+}
+#wine_information img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+/*ワインの情報コーナーここまで*/
+
+/*あなたにオススメの1本*/
+#recommend_you .box{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#recommend_you .photo_area {
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #434343;
+    margin-bottom: -5px;
+    text-align: center;
+}
+#recommend_you .text_area{
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5%;
+    overflow: hidden;
+}
+#recommend_you .top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#recommend_you .top img{
+    width: 10%;
+}
+#recommend_you .top2 {
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#recommend_you h4{
+    width: 100%;
+}
+#recommend_you span{
+    font-weight: bold;
+}
+#recommend_you hr{
+    background-color: #dfdfdf;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 0.09em;
+}
+#recommend_you .star{
+    width: 100%;
+    letter-spacing: 3px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .star p{
+    color: #f1c40f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#recommend_you .postman{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .postman p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#recommend_you .price{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .price p{
+    width: 100%;
+    padding-top: 10px;
+}
+#recommend_you .price p:last-child{
+    padding-bottom: 10px;
+}
+#recommend_you .score_details{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .score_details p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#recommend_you .memo{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .memo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#recommend_you .good{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#recommend_you .good p{
+    width: 49.2%;
+    line-height: 60px;
+    border: 1px solid #099;
+    background-color: #099;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #fff;
+    float: left;
+}
+#recommend_you .good a{
+    width: 49.2%;
+    border: 1px solid #099;
+    background-color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+    color: #099;
+    float: left;
+}
+#recommend_you .good span{
+    line-height: 60px;
+}
+/*あなたにオススメの1本ここまで*/
+
+/*****FOOTER*****/
+footer{
+    width:100%;
+	text-align:center;
+	clear:both;
+}
+footer .page_top{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    color: #fff;
+    background-color: #626262;
+    float: left;
+}
+footer .page_top a{
+    display: block;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+footer .footer_contents{
+    width: 100%;
+    color: #fff;
+    background-color:#313131;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    float: left;
+}
+footer .footer_contents img{
+    width: 15%;
+    padding-bottom: 20px;
+}
+footer .footer_contents address{
+    font-size: 80%;
+}
+
+
+/*****************************search.html********************************/
+#search_page{
+    width: 100%;
+}
+#search_page img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#search_page .link_btn{
+    width: 90%;
+    margin-left: 5%;
+}
+#search_page .link_btn p{
+    width: 100%;
+    border-radius:3px;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    line-height:120px;
+    margin-bottom: 20px;
+}
+#search_page .link_btn p:hover{
+    background-color: #0aa;
+    border-radius: 3px;
+}
+#search_page .link_btn a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#search_page .link_btn a:hover{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/****************************review.html**********************************/
+#review_page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#review_page .photo_select{
+    position: relative;
+    width: 100%;
+    margin-bottom: 80px;
+}
+#review_page .position {
+    width: 100%;
+    margin-top:30px;
+    text-align:center;
+}
+#review_page .uploadButton {
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+    border-radius:3px;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+    line-height:30px;
+    width:80%;
+    cursor:pointer;
+}
+#review_page .uploadButton:hover {
+    background:#0aa;
+}
+#review_page .uploadButton input[type=file] {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    cursor:pointer;
+    opacity:0;
+}
+#review_page .uploadValue {
+    display:none;
+    background:rgba(255,255,255,0.2);
+    border-radius:3px;
+    padding:3px;
+    color:#ffffff;
+}
+#review_page .review_score{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#review_page .review_score .label{
+    width: 80%;
+    font-weight: bold;
+    border-bottom: 1px dashed #434343;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    clear: both;
+}
+#review_page .review_score select{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_page .review_score select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF url(../images/select_arrow.jpg) no-repeat right;
+}
+
+#review_page .review_score div{
+    margin-bottom: 30px;
+}
+
+#review_page .review_price{
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#review_page .review_price .label{
+    width: 80%;
+    font-weight: bold;
+    border-bottom: 1px dashed #434343;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    clear: both;
+}
+#review_page .review_price input{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_page .review_price input{
+    -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box;
+
+ color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+}
+
+#review_page .review_price div{
+    margin-bottom: 30px;
+}
+#review_page .next_btn_r{
+    margin-bottom: 40px;
+}
+.value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  width: 80%;
+  height: 100px;
+  line-height: 60px;
+  margin: 20px auto;
+margin-bottom: 0;
+  letter-spacing: -.07em;
+  text-shadow: white 2px 2px 2px;
+}
+#review_page .memo{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#review_page .memo textarea{
+    width: 80%;
+    color: #434343;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+}
+#review_page .share_area{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    float: left;
+}
+#review_page .open_close{
+
+}
+#review_page .open_close input {
+	display: none;
+}
+#review_page .open_close label{
+	display: block;
+	float: left;
+    cursor: pointer;
+	width: 20%;
+	margin: 0;
+	padding: 3%;
+	background: #bdc3c7;
+	color: #869198;
+	font-size: 100%;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+#review_page .open_close label:first-of-type{
+	border-radius: 3px 0 0 3px;
+    margin-left: 24%;
+}
+#review_page .open_close label:last-of-type{
+	border-radius: 0 3px 3px 0;
+}
+#review_page .open_close input[type="radio"]:checked + .switch-on {
+	background-color: #0aa;
+	color: #fff;
+}
+#review_page .open_close input[type="radio"]:checked + .switch-off {
+	background-color: #ff8d8d;
+	color: #fff;
+}
+#review_page .next_btn{
+    clear: both;
+    margin-bottom: 50px;
+}
+#review_page .next_btn input[type=submit]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+    width: 90%;
+}
+#review_page .next_btn input[type=submit]:active{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #fff;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #B3B3B3;
+    width: 90%;
+}
+#review_page .wine_information{
+    width: 100%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#review_page .wine_information .label{
+    width: 80%;
+    font-weight: bold;
+    border-bottom: 1px dashed #434343;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    clear: both;
+}
+#review_page .wine_information input{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_page .wine_information input{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+}
+
+#review_page .wine_information div{
+    margin-bottom: 30px;
+}
+#review_page .wine_information select{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_page .wine_information select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF url(../images/select_arrow.jpg) no-repeat right;
+}
+
+#review_page .review_total_score{
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#review_page .review_total_score div{
+    margin-bottom: 30px;
+}
+#review_page .review_total_score select{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_page .review_total_score select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF url(../images/select_arrow.jpg) no-repeat right;
+}
+
+
+/***************************global_wine.html*****************************/
+#global_wine_page .box{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#global_wine_page .box:last-child{
+    margin-bottom: 0px;
+}
+#global_wine_page .photo_area {
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #434343;
+    margin-bottom: -5px;
+    text-align: center;
+}
+#global_wine_page .text_area{
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5%;
+    overflow: hidden;
+}
+#global_wine_page .top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#global_wine_page .top img{
+    width: 10%;
+}
+#global_wine_page .top2 {
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#global_wine_page h4{
+    width: 100%;
+}
+#global_wine_page span{
+    font-weight: bold;
+}
+#global_wine_page hr{
+    background-color: #dfdfdf;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 0.09em;
+}
+#global_wine_page .star{
+    width: 100%;
+    letter-spacing: 3px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_page .star p{
+    color: #f1c40f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_page .postman{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_page .postman p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_page .price{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_page .price p{
+    width: 100%;
+    padding-top: 10px;
+}
+#global_wine_page .price p:last-child{
+    padding-bottom: 10px;
+}
+#global_wine_page .score_details{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_page .score_details p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_page .memo{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#global_wine_page .memo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#global_wine_page .details{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#global_wine_page .details a{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#global_wine_page .details a:hover{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+#global_wine_page .details a:active{
+    display: block;
+    color: #099;
+    background-color: #fff;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#global_wine_page .details span{
+    line-height: 60px;
+    font-weight: normal;
+}
+
+
+/****************************review_ck.php**********************************/
+#review_ck_page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.photo_select_view{
+    width: 100%;
+    height: 100%;
+    background-color: #434343;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#review_ck_page .review_score{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#review_ck_page .review_score .label{
+    width: 80%;
+    font-weight: bold;
+    border-bottom: 1px dashed #434343;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    clear: both;
+}
+#review_ck_page .review_score p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+#review_page .review_score div{
+    margin-bottom: 30px;
+}
+
+#review_ck_page .review_price{
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#review_ck_page .review_price .label{
+    width: 80%;
+    font-weight: bold;
+    border-bottom: 1px dashed #434343;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    clear: both;
+}
+#review_ck_page .review_price input{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#review_ck_page .review_price input{
+    -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box;
+
+ color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+}
+
+#review_ck_page .review_price div{
+    margin-bottom: 20px;
+}
+#review_ck_page .next_btn_r{
+    margin-bottom: 40px;
+}
+.value {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5em;
+  width: 80%;
+  height: 100px;
+  line-height: 60px;
+  margin: 20px auto;
+margin-bottom: 0;
+  letter-spacing: -.07em;
+  text-shadow: white 2px 2px 2px;
+}
+#review_ck_page .memo{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#review_ck_page .memo p{
+    width: 80%;
+    color: #434343;
+    font-size: 100%;
+    border: none;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+    margin-bottom: 50px;
+}
+#review_ck_page .share_area{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    float: left;
+}
+#review_ck_page .open_close{
+
+}
+#review_ck_page .open_close input {
+	display: none;
+}
+#review_ck_page .open_close label{
+	display: block;
+	float: left;
+    cursor: pointer;
+	width: 20%;
+	margin: 0;
+	padding: 3%;
+	background: #bdc3c7;
+	color: #869198;
+	font-size: 100%;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+#review_ck_page .open_close label:first-of-type{
+	border-radius: 3px 0 0 3px;
+    margin-left: 24%;
+}
+#review_ck_page .open_close label:last-of-type{
+	border-radius: 0 3px 3px 0;
+}
+#review_ck_page .open_close input[type="radio"]:checked + .switch-on {
+	background-color: #0aa;
+	color: #fff;
+}
+#review_ck_page .open_close input[type="radio"]:checked + .switch-off {
+	background-color: #ff8d8d;
+	color: #fff;
+}
+#review_ck_page .next_btn{
+    clear: both;
+}
+#review_ck_page .next_btn input[type=submit]{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+    width: 90%;
+}
+#review_ck_page .next_btn input[type=submit]:active{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #fff;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #B3B3B3;
+    width: 90%;
+}
+
+
+
+
+/****************************review_ok.php**********************************/
+#review_ok_page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#review_ok_page .link_btn{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+#review_ok_page .link_btn p{
+    width: 100%;
+    border-radius:3px;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    line-height:60px;
+    margin-bottom: 20px;
+}
+#review_ok_page .link_btn p:hover{
+    background-color: #0aa;
+    border-radius: 3px;
+}
+#review_ok_page .link_btn a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#review_ok_page .link_btn a:hover{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+/****************************label.html**********************************/
+#label_page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#label_page img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#label_page input{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: both;
+}
+#label_page input{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: content-box;
+    color: #434343;
+    height: 45px;
+    font-size: 100%;
+    border: 1px solid #B3B3B3;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+    background: #FFF;
+    margin-bottom: 50px;
+}
+
+#label_page p{
+    width: 80%;
+    margin-left:10%;
+    border-radius:3px;
+    background:#099;
+    color:#fff;
+    text-align:center;
+    line-height:60px;
+    margin-bottom: 20px;
+}
+#label_page p:hover{
+    background-color: #0aa;
+    border-radius: 3px;
+}
+#label_page a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+#label_page a:hover{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+/****************************label_search.php**********************************/
+#search_list_page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#search_list_page .box{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#search_list_page .photo_area {
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #434343;
+    margin-bottom: -5px;
+    text-align: center;
+}
+/*#wine_review_page .photo_area img{
+    width: 100%;
+    margin: 0;
+    margin-bottom: -5px;
+    padding: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}*/
+#search_list_page .text_area{
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5%;
+    overflow: hidden;
+}
+#search_list_page .top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#search_list_page .top img{
+    width: 10%;
+}
+#search_list_page .top2 {
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#search_list_page h4{
+    width: 100%;
+}
+#search_list_page span{
+    font-weight: bold;
+}
+#search_list_page hr{
+    background-color: #dfdfdf;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 0.09em;
+}
+#search_list_page .star{
+    width: 100%;
+    letter-spacing: 3px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#search_list_page .star p{
+    color: #f1c40f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#search_list_page .postman{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#search_list_page .postman p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#search_list_page .details{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#search_list_page .details a{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#search_list_page .details a:hover{
+    display: block;
+    color: #fff;
+    background-color: #099;
+    border: 1px solid #099;
+    border-radius: 3px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+#search_list_page .details a:active{
+    display: block;
+    color: #099;
+    background-color: #fff;
+    border: 1px solid #099;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#search_list_page .details span{
+    line-height: 60px;
+    font-weight: normal;
+}
+
+/******************wine_review.php*******************/
+#wine_review_page .price{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .price p{
+    width: 100%;
+    padding-top: 10px;
+}
+#wine_review_page .price p:last-child{
+    padding-bottom: 10px;
+}
+#wine_review_page .score_details{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .score_details p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .memo{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .memo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .box{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    border-radius: 3px;
+}
+#wine_review_page .photo_area {
+    width: 100%;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    background-color: #434343;
+    margin-bottom: -5px;
+    text-align: center;
+}
+/*#wine_review_page .photo_area img{
+    width: 100%;
+    margin: 0;
+    margin-bottom: -5px;
+    padding: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}*/
+#wine_review_page .text_area{
+    background-color: #eeeeee;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5%;
+    overflow: hidden;
+}
+#wine_review_page .top{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#wine_review_page .top img{
+    width: 10%;
+}
+#wine_review_page .top2 {
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 10px;
+    float: left;
+}
+#wine_review_page h4{
+    width: 100%;
+}
+#wine_review_page span{
+    font-weight: bold;
+}
+#wine_review_page hr{
+    background-color: #dfdfdf;
+    border: none;
+    padding: none;
+    margin: none;
+    height: 0.09em;
+}
+#wine_review_page .star{
+    width: 100%;
+    letter-spacing: 3px;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .star p{
+    color: #f1c40f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .postman{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .postman p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .price{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .price p{
+    width: 100%;
+    padding-top: 10px;
+}
+#wine_review_page .price p:last-child{
+    padding-bottom: 10px;
+}
+#wine_review_page .score_details{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .score_details p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .memo{
+    width: 100%;
+    border-width: 1px;
+    border-color:  #ffffff;
+    border-style: solid;
+    background-color:  #ffffff;
+    box-shadow: 1px 3px 0px 0.00px rgba(143, 143, 143, 0.75);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .memo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#wine_review_page .good{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+#wine_review_page .good p{
+    width: 49.2%;
+    line-height: 60px;
+    border: 1px solid #099;
+    background-color: #099;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #fff;
+    float: left;
+}
+#wine_review_page .good a{
+    width: 49.2%;
+    border: 1px solid #099;
+    background-color: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: none;
+    color: #099;
+    float: left;
+}
+#wine_review_page .good span{
+    line-height: 60px;
+}
